@@ -26,7 +26,7 @@ function incrementStats() {
                 counter.innerText = Math.ceil(c + increment);
                 setTimeout(updateCounter, 1)
             } else {
-                counter.inerText = target;
+                counter.innerText = target;
             }
            
         };
